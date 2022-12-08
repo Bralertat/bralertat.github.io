@@ -741,7 +741,7 @@ ul.slick-dots {
     }
 
     .gallery__photos {
-        max-width: 950px;
+        max-width: 100vw;
     }
 }
 
@@ -879,6 +879,24 @@ ul.slick-dots {
 
     .peaks__inner {
         padding: 70px 0 100px;
+    }
+    .forma__inner{
+        display: block;
+    }
+    .pricing__tariff{
+        display: block;
+    }
+    .pricing__tariff-item{
+        width: auto;
+    }
+    .gallery__statistics{
+        display: block;
+    }
+    .form button{
+        padding: 24px 68px;
+    }
+    .team__members {
+        display: block
     }
 }
 
