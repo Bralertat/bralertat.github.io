@@ -27,5 +27,15 @@ $(function () {
     });
 
     var mixer = mixitup('.gallery__photos');
+});
 
+const header = document.querySelector('.header__top-inner');
+const headerHeight = header.clientHeight;
+document.addEventListener('scroll', function() {
+    let switchHeight = document.documentElement.clientHeight - headerHeight;
+    if (window.pageYOffset > switchHeight){
+        header.classList.add("bgSwitch");
+    } else header.classList.remove("bgSwitch");
+    // console.log('window.pageYOffset' ,window.pageYOffset);
+    // console.log('viewHeight', switchHeight);
 });

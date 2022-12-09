@@ -52,9 +52,10 @@ p {
     right: 0;
     left: 0;
     z-index: 100;
+    /* background-color: rgba(118, 128, 130, 0.67); */
+}
+.bgSwitch{
     background-color: rgba(118, 128, 130, 0.67);
-    
-
 }
 
 .menu {
